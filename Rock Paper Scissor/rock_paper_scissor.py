@@ -20,7 +20,7 @@ def rock_paper_scissor(player1,player2,score):
 
     #Displaying what players put among rock, paper & scissor
     if p2 not in a:
-      print('''⚠️Oops! Seems like you put wrong input.
+      print('''⚠️Oops! Seems like you put the wrong input.
     Give it correctly in this turn.⚠️''',flush=True)
     elif(p1==p2):
       print(f"👉Haha, We both put {p1}. So score remains the same.👈",flush=True)
@@ -29,7 +29,7 @@ def rock_paper_scissor(player1,player2,score):
     time.sleep(1)
     print()
 
-    #Giving score to players based on conditions
+    #Giving scores to players based on conditions
     if (p2 not in a) or (p1==p2):
       pass
     elif(p1=='rock' and p2=='scissor'):
@@ -73,13 +73,13 @@ clear_output(wait=True)
 print('''⚠️Read instruction carefully⚠️
 
 ⚠️ Now you are going to fix the winning score.
-For example, if you're fixing winning score as 𝟑,
-The one who first get 𝟑 𝐩𝐨𝐢𝐧𝐭𝐬 will 𝐰𝐢𝐧 this game.
+For example, if you're fixing the winning score as 𝟑,
+The one who first gets 𝟑 𝐩𝐨𝐢𝐧𝐭𝐬 will 𝐰𝐢𝐧 this game.
 
 Note: ⚠️ Maximum winning score is 𝟏𝟎. If you exceed it,
           It'll be considered as 𝟏𝟎 by default.
       ⚠️ Minimum score is 𝟏. It will be considered as 𝟏 by default
-          if you put zero or negative number.
+          if you put a zero or negative number.
       ⚠️ If you input winning score in 𝐰𝐫𝐨𝐧𝐠 𝐟𝐨𝐫𝐦𝐚𝐭(other than integer),
           It'll be considered as 𝟱 by default.''', flush=True)
 
@@ -90,20 +90,20 @@ while(True):
   except:
     score=5
     print('''
-    ⚠️Since you input winning score in 𝐰𝐫𝐨𝐧𝐠 𝐟𝐨𝐫𝐦𝐚𝐭.
+    ⚠️Since you input the winning score in 𝐰𝐫𝐨𝐧𝐠 𝐟𝐨𝐫𝐦𝐚𝐭.
     It's been fixed as 𝟱 by default.⚠️''', flush=True)
     input(("\nClick enter-button to continue."))
 
   if score>10:
     score=10
     print('''
-    ⚠️Since you input winning score as more than 10.
+    ⚠️Since you input the winning score as more than 10.
     It's been fixed as 𝟏𝟎 by default.⚠️''', flush=True)
     input(("\nClick enter-button to continue."))
   elif score<=0:
     score=1
     print('''
-    ⚠️Since you input winning score as less than 1.
+    ⚠️Since you input the winning score as less than 1.
     It's been fixed as 𝟏 by default.⚠️''', flush=True)
     input(("\nClick enter-button to continue."))
   clear_output(wait=True)
