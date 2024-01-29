@@ -1,4 +1,4 @@
-Running this code will allow the user to play the **ROCK PAPER SCISSOR** game.
+Running this code will allow the user to play the **ROCK PAPER SCISSOR** game. 
 
 Note: It is requested to run this code either in **Google Colab** or **Jupyter Notebook** for a better experience.
 
