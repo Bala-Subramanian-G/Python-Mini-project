@@ -1,5 +1,5 @@
-## Motivation:
-When I was in the beginning time of my Python learning, I was very curious to implement the concepts in real-time work but also in a funny way. That's where this idea came to my mind. I also aimed to solve the FLAMES game in very simple logic. As a beginner, it was very challenging for me to come up with simple and precise logic for this problem.
+## Aim:
+I aimed to solve the FLAMES game in very simple logic. As a beginner, it was very challenging for me to come up with simple and precise logic for this problem.
 
 ## What is FLAMES?
 **FLAMES** is a popular game named after the acronym: Friends, Lovers, Affectionate, Marriage, Enemies, Sibling. This game does not accurately predict whether or not an individual is right for you, but it can be fun to play this with your friends.
