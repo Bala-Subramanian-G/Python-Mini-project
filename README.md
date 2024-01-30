@@ -1,5 +1,3 @@
-# Python-Mini-project
-
 ## Motivation:
 When I was in the beginning time of my Python learning, I was very curious to implement the concepts in real-time work but also in a funny way. That's where this idea came to my mind.
 I started creating mini-games in Python. Some more things are also on my mind. Will be updating them in the future.
