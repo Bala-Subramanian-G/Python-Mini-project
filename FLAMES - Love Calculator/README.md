@@ -9,7 +9,7 @@ There are two steps in this game.
 **Step 1**: Take the two names.
 Remove the common characters with their respective common occurrences. Get the count of the characters that are left.
 
-**Step 2**: Take FLAMES letters as [“F”, “L”, “A”, “M”, “E”, “S”]
+**Step 2**: Take FLAMES letters as [“F”, “L”, “A”, “M”, “E”, “S”].
 Start removing letter using the count we got. The letter that lasts the process is the result.
 
 Example:
