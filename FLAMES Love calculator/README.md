@@ -1,3 +1,0 @@
-FLAMES Love Calculator
-
-
